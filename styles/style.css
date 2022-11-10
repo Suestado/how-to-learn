@@ -3,6 +3,10 @@
     padding: 0;
     }
 
+.links {
+    text-decoration: none;
+    }
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -95,7 +99,6 @@
 .two-columns {
     display: flex;
     width: 80%;
-    margin: 100px 0;
     justify-content: space-between;
     }
 
@@ -112,7 +115,7 @@
     min-width: 784px;
     line-height: 34px;
     font-size: 24px;
-    font-width: normal;
+    font-weight: normal;
     }
 
 .two-columns__span {
@@ -147,8 +150,8 @@
     font-weight: 600;
     }
 
-.section-title_digits_content {
-    margin: 100px auto 0;
+.section-title_theme_light {
+    margin: 0 auto;
     }
 
 .section-subtitle {
@@ -160,7 +163,7 @@
     font-weight: normal;
     }
 
-.section-title_digits_content {
+.section-subtitle_theme_light {
     margin: 20px auto 0;
     }
 
@@ -170,10 +173,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    list-style-type: none;
     }
 
-.table_digits_content {
-    margin: 0 auto 100px;
+.table_theme_light {
+    margin: 0 auto;
     }
 
 .table__heading {
@@ -183,10 +187,13 @@
     }
 
 .table__cell {
-    width: 250px;
     vertical-align: top;
-    margin-top: 60px;
     border: solid 2px red;
+    }
+
+.table__cell_theme_light {
+    width: 250px;
+    margin-top: 60px;
     }
 
 .table__text {
@@ -196,12 +203,172 @@
     font-weight: normal;
     }
 
+/* Feynman block styles */
+
+.feynman {
+    border: solid 2px darkgoldenrod;
+    }
+
+.feynman {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 890px;
+    }
+
+.feynman__title {
+    border: solid 2px blueviolet;
+    width: 648px;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: 600;
+    margin-top: 100px;
+    z-index: 1;
+    }
+
+.feynman__subtitle {
+    border: solid 2px greenyellow;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 70px;
+    z-index: 1;
+    }
+
+.feynman__link {
+    border: solid 2px black;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    }
+
+.feynman__main-illustration {
+    width: 867px;
+    height: 637px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    }
 
 
+/* Kaufman block styles */
+
+.kaufman {
+    position: relative;
+    background-color: black;
+    padding: 90px 0 90px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: solid 2px greenyellow;
+    }
+
+.kaufman__triangle {
+    position: absolute;
+    right: -210px;
+    top: 0;
+    width: 877px;
+    height: 877px;
+    }
+
+.section-title_theme_dark {
+    margin: 0 auto;
+    color: white;
+    border: solid 2px greenyellow;
+    }
+
+.section-subtitle_theme_dark {
+    margin: 20px auto 0;
+    color: white;
+    border: solid 2px greenyellow;
+    }
+
+.table_theme_dark {
+    margin: 0 auto;
+    z-index: 1;
+    }
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+    }
 
 
+/* Footer styles */
 
+.footer {
+    background-color: black;
+    padding: 60px 0 40px;
+    border: 2px solid red;
+    }
 
+.footer_text_white {
+    color: white;
+    }
+
+.footer__columns {
+    border: solid 2px greenyellow;
+    width: 90%;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.footer__column_content_copyright {
+    flex-basis: 711px;
+    border: solid 2px red;
+    position: relative;
+    }
+
+.footer__author {
+    position: absolute;
+    bottom: 0;
+    margin: 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    }
+
+.footer__column_content_info {
+    border: solid 2px red;
+    }
+
+.footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    }
+
+.footer__column-links {
+    list-style-type: none;
+    margin: 20px 0 16px;
+    }
+
+.footer__column-links_page {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    }
+
+.footer__column_social-networks-list {
+    list-style-type: none;
+    margin: 20px 0 16px;
+    }
+
+.footer__social-network_name {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 5px;
+    }
 
 
 
