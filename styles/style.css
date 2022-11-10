@@ -25,8 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative; /* Пришлось добавить позиционирование, так как иначе абсолютные блоки позиционировались относительно верхнего родителяPage */
-    border: solid 2px red;
+    position: relative;
 }
 
 .logo {
@@ -61,6 +60,10 @@
     font-weight: normal;
     }
 
+.header__link {
+    color: rgb(47,128,237);
+    }
+
 .header__main-illustration {
     position: absolute;
     right: 0;
@@ -80,15 +83,9 @@
     }
 
 
-/* Description styles main */
-
-
 
 /* Description styles block */
 
-.description {
-    border: solid 2px green;
-    }
 
 .description {
     display: flex;
@@ -128,10 +125,6 @@
     font-weight: 600;
     }
 
-.digits {
-    border: solid 2px blue;
-    }
-
 
 /* Digits styles block */
 
@@ -142,7 +135,6 @@
     }
 
 .section-title {
-    border: solid 2px yellow;
     width: 60%;
     text-align: center;
     line-height: 1.15;
@@ -155,7 +147,6 @@
     }
 
 .section-subtitle {
-    border: solid 2px black;
     width: 60%;
     text-align: center;
     line-height: 34px;
@@ -169,7 +160,6 @@
 
 .table {
     width: 1100px;
-    border: solid 2px deeppink;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -188,7 +178,6 @@
 
 .table__cell {
     vertical-align: top;
-    border: solid 2px red;
     }
 
 .table__cell_theme_light {
@@ -206,10 +195,6 @@
 /* Feynman block styles */
 
 .feynman {
-    border: solid 2px darkgoldenrod;
-    }
-
-.feynman {
     margin-top: 100px;
     display: flex;
     position: relative;
@@ -219,7 +204,6 @@
     }
 
 .feynman__title {
-    border: solid 2px blueviolet;
     width: 648px;
     text-align: center;
     line-height: 1.15;
@@ -230,7 +214,6 @@
     }
 
 .feynman__subtitle {
-    border: solid 2px greenyellow;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -239,13 +222,13 @@
     }
 
 .feynman__link {
-    border: solid 2px black;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
     position: absolute;
     right: 0;
     top: 50%;
+    color: rgb(47,128,237);
     }
 
 .feynman__main-illustration {
@@ -266,7 +249,6 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    border: solid 2px greenyellow;
     }
 
 .kaufman__triangle {
@@ -280,13 +262,11 @@
 .section-title_theme_dark {
     margin: 0 auto;
     color: white;
-    border: solid 2px greenyellow;
     }
 
 .section-subtitle_theme_dark {
     margin: 20px auto 0;
     color: white;
-    border: solid 2px greenyellow;
     }
 
 .table_theme_dark {
@@ -306,7 +286,6 @@
 .footer {
     background-color: black;
     padding: 60px 0 40px;
-    border: 2px solid red;
     }
 
 .footer_text_white {
@@ -314,7 +293,6 @@
     }
 
 .footer__columns {
-    border: solid 2px greenyellow;
     width: 90%;
     min-height: 350px;
     margin: auto;
@@ -324,7 +302,6 @@
 
 .footer__column_content_copyright {
     flex-basis: 711px;
-    border: solid 2px red;
     position: relative;
     }
 
@@ -337,9 +314,6 @@
     font-weight: normal;
     }
 
-.footer__column_content_info {
-    border: solid 2px red;
-    }
 
 .footer__column-heading {
     line-height: 30px;
