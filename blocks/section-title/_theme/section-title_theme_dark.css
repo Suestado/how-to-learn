@@ -1,0 +1,5 @@
+.section-title_theme_dark {
+  margin:  0 auto;
+  z-index: 1;
+  color:   var(--kaufman-text-color);
+  }
