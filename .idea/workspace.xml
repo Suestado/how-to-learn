@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a911c77b-a1c2-4d3a-9f5b-296b6d8e1bf8" name="Changes" comment="How-to-learn (full page) 2-nd review">
-      <change afterPath="$PROJECT_DIR$/variables/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/feynman/__link/feynman__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/feynman/__link/feynman__link.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/variables/variables.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor" />
       <recent name="$PROJECT_DIR$/blocks/resources" />
       <recent name="$PROJECT_DIR$/blocks/cards/__title" />
-      <recent name="$PROJECT_DIR$/vendor" />
     </key>
   </component>
   <component name="RunManager">
@@ -83,7 +83,7 @@
       <updated>1667938613357</updated>
       <workItem from="1667938615688" duration="45734000" />
       <workItem from="1668263700034" duration="30587000" />
-      <workItem from="1669414787888" duration="18349000" />
+      <workItem from="1669414787888" duration="19468000" />
     </task>
     <servers />
   </component>

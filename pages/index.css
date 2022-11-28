@@ -1,5 +1,5 @@
 @import url('../vendor/normalize.css');
-@import url('../variables/variables.css');
+@import url('../vendor/variables/variables.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__link/header__link.css');
